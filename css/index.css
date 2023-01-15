@@ -1,0 +1,223 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0;
+	padding: 0;
+}
+
+.top
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	background-color: #0493e5;
+}
+
+.middle {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	width: 100%;
+	height: 82%;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 9%;
+	background-color: #0493e5;
+}
+
+.logo
+{
+	position: absolute;
+	top: 3%;
+	left: 20%;
+	width: 5%;
+	height: 70%;
+}
+
+.text1 {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	font-style: italic;
+	font-size: 170%;
+	color: white;
+}
+
+.image1 {
+	position: absolute;
+	top: 1%;
+	left: 15%;
+	height: 90%;
+	width: 30%;
+}
+
+.form {
+	position: absolute;
+	top: 1%;
+	left: 50%;
+	width: 30%;
+	height: 90%;
+}
+
+.b_line {
+	position: absolute;
+	top: 10%;
+	left: 59%;
+}
+
+#my_logo {
+	width: 100%;
+}
+
+#image1 {
+	width: 100%;
+}
+
+.college_logo {
+	position: absolute;
+	top: 1%;
+	left: 40%;
+	width: 25%;
+	height: 20%;
+}
+
+#college_logo {
+	width: 100%;
+}
+
+.college_name {
+	position: absolute;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+	text-align: center;
+	font-size: 200%;
+}
+
+.line1 {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	width: 60%;
+	height: 1%;
+}
+
+#line1 {
+	width: 100%;
+}
+
+.uname {
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	width: 20%;
+	height: 5%;
+	text-align: center;
+}
+
+.uname_input {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	width: 50%;
+	height: 5%;
+}
+
+#uname {
+	width: 100%;
+}
+
+.password {
+	position: absolute;
+	top: 70%;
+	left: 40%;
+	width: 20%;
+	height: 5%;
+	text-align: center;
+}
+
+.password_input {
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	width: 50%;
+	height: 5%;
+}
+
+.login {
+	position: absolute;
+	top: 85%;
+	left: 20%;
+	width: 19%;
+	height: 7%;
+}
+
+#login_button {
+	width: 100%;
+	height: 100%;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+.fpass {
+	position: absolute;
+	top: 85%;
+	right: 20%;
+	width: 40%;
+	height: 7%;
+}
+
+#fpass {
+	width: 100%;
+	height: 100%;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+#line2 {
+	width: 100%;
+}
+
+.line2 {
+	position: absolute;
+	bottom: 2%;
+	left: 20%;
+	width: 60%;
+	height: 1%;
+}
+
+#password {
+	width: 100%;
+}
+
+.cname {
+	position: absolute;
+	bottom: 2%;
+	left: 19.5%;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.b_cname {
+	position: absolute;
+	top: 10%;
+	left: 66%;
+	text-decoration: underline;
+}
+
+.fail {
+	position: absolute;
+	bottom: 2%;
+	left: 0%;
+	color: red;
+	width: 100%;
+	text-align: center;
+}

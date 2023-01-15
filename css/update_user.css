@@ -1,0 +1,273 @@
+@charset "ISO-8859-1";
+
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+.update_user {
+	position: absolute;
+	top: 21%;
+	left: 0%;
+	width: 7.5%;
+	text-align: right;
+	background-color: #e55604;
+	padding-right: 0.3%;
+	color: white;
+	padding-bottom: 3px;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 77.1%;
+	background-color: aliceblue;
+}
+
+.from_date {
+	position: absolute;
+	top: 28.5%;
+	left: 22%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#comm_type {
+	width: 100%;
+}
+
+.from_date_input {
+	position: absolute;
+	top: 28%;
+	left: 28.7%;
+	width: 10%;
+}
+
+
+
+
+
+#sem_year {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#subject {
+	width: 100%;
+}
+
+input {
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+	font-size: 100%;
+}
+
+
+
+
+
+#date {
+	width: 100%;
+}
+
+
+
+.add_daily_attendance {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+	width: 12%;
+	height: 6%;
+}
+
+
+
+.prev {
+	position: absolute;
+	top: 28%;
+	right: 10.5%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 29.5%;
+	right: 5.5%;
+}
+
+
+
+.next {
+	position: absolute;
+	top: 28%;
+	right: 1%;
+	width: 3%;
+}
+
+#next {
+	width: 100%;
+}
+
+#prev {
+	width: 100%;
+}
+
+#update_user_table {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+#col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col12_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+#export_excel {
+	width: 100%;
+	height: 100%;	
+}
+
+
+
+#search {
+	width: 100%;
+}
+
+
+
+
+
+
+
+td a
+{
+	color: blue;
+}
+
+td
+{
+	padding-left: 0.5%;
+}
+
+
+
+
+.nav_update_user a
+{
+	color: #b30000;
+}
+
+.employee {
+	position: absolute;
+	top: 30%;
+	left: 32.8%;
+	font-weight: bold;
+}
+
+.employee_select {
+	position: absolute;
+	top: 30%;
+	left: 39.7%;
+	width: 12%;
+}
+
+input {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+.save {
+	position: absolute;
+	top: 30%;
+	left: 60%;
+	width: 6%;
+	text-align: center;
+}
+
+#save {
+	background-color: #e55604;
+	border: none;
+	width: 100%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+}

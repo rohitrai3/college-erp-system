@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+#maintenance {
+	width: 100%;
+}
+
+.maintenance {
+	position: absolute;
+	top: 24%;
+	left: 25%;
+	width: 50%;
+}
+
+
+
+
+
+.nav_reports
+{
+	color: #b30000;
+}
+
+.reports_attendance_not_marked a
+{
+	color: #b30000;
+}

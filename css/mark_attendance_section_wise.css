@@ -1,0 +1,266 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.mark_attendance {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 10%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-bottom: 3px;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 185%;
+	background-color: aliceblue;
+}
+
+.session {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#session {
+	width: 100%;
+}
+
+.session_select {
+	position: absolute;
+	top: 28%;
+	left: 6%;
+	width: 12%;
+}
+
+.sem_year {
+	position: absolute;
+	top: 28.5%;
+	left: 19%;
+}
+
+.sem_year_select {
+	position: absolute;
+	top: 28%;
+	left: 22.5%;
+	width: 11%;
+}
+
+#sem_year {
+	width: 100%;
+}
+
+.section {
+	position: absolute;
+	top: 28.5%;
+	left: 34.5%;
+}
+
+#section {
+	width: 100%;
+}
+
+.section_select {
+	position: absolute;
+	top: 28%;
+	left: 39.5%;
+	width: 12%;
+}
+
+.subject {
+	position: absolute;
+	top: 28.5%;
+	left: 53%;
+}
+
+.subject_select {
+	position: absolute;
+	top: 28%;
+	left: 58%;
+	width: 12%;
+}
+
+#subject {
+	width: 100%;
+}
+
+input {
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+.period {
+	position: absolute;
+	top: 28.5%;
+	left: 71%;
+	font-weight: bold;
+}
+
+.period_select {
+	position: absolute;
+	top: 28%;
+	left: 75.5%;
+	width: 12%;
+}
+
+#period	 {
+	width: 100%;
+}
+
+.date {
+	position: absolute;
+	top: 35%;
+	left: 1%;
+	font-weight: bold;
+}
+
+.date_input {
+	position: absolute;
+	top: 34.5%;
+	left: 4.4%;
+	width: 10%;
+}
+
+#date	 {
+	width: 100%;
+}
+
+#add_daily_attendance {
+	background-color: #e55604;
+	border: none;
+	width: 100%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-size: 70%;
+}
+
+.add_daily_attendance {
+	position: absolute;
+	top: 34%;
+	left: 17%;
+	width: 12%;
+	height: 6%;
+}
+
+
+
+.prev {
+	position: absolute;
+	top: 34.5%;
+	right: 14%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 36%;
+	right: 5.5%;
+}
+
+
+
+.next {
+	position: absolute;
+	top: 34.5%;
+	right: 1%;
+	width: 3%;
+}
+
+#next {
+	width: 100%;
+}
+
+#prev {
+	width: 100%;
+}
+
+#attendance_section_wise {
+	position: absolute;
+	top: 42%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10%;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+#col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col12_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.nav_mark_attendance a
+{
+	color: #b30000;
+}

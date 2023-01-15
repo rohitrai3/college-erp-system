@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.top {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	background-color: #0493e5;
+}
+
+.college_logo {
+	position: absolute;
+	top: 9%;
+	left: 0.8%;
+	width: 60px;
+	height: 60px;
+	background-color: aliceblue;
+	border-radius: 5%;
+}
+
+#college_logo {
+	height: 90%;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.college_name {
+	position: absolute;
+	top: 20%;
+	left: 6%;
+	font-size: 150%;
+	color: white;
+	font-weight: bold;
+}
+
+.org {
+	float: right;
+	font-size: 100%;
+	color: white;
+	font-weight: bold;
+	margin-top: 0.3%;
+	margin-right: 0.5%;
+}
+
+.welcome {
+	float: right;
+	font-size: 80%;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 0.3%;
+	margin-right: 1%;
+}
+
+.bsaitm_name {
+	float: right;
+	font-size: 90%;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 0.3%;
+	margin-right: 2%;
+}
+
+.setting_logo {
+	position: absolute;
+	top: 0%;
+	right: 2%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#setting {
+	width: 100%;
+}
+
+.cname {
+	position: absolute;
+	top: 30%;
+	right: 8%;
+	font-weight: bold;
+	font-size: 200%;
+	color: white;
+}
+
+.nav {
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	width: 100%;
+	height: 30%;
+	background-color: #e55604;
+	color: white;
+	font-weight: bold;
+}
+
+.nav_dashboard {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_my_profile {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.logout {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	width: 1020%;
+	height: 330%;
+	background-color: #03639a;
+	z-index: 2;
+}
+
+.logout_pic {
+	position: absolute;
+	top: 12%;
+	left: 4%;
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+#logout_pic {
+	width: 100%;
+}
+
+.logout_name {
+	position: absolute;
+	top: 25%;
+	right: 0%;
+	width: 70%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.change_password {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+.signout {
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+#change_password {
+	font-size: 70%;
+	height: 30px;
+}
+
+#signout {
+	font-size: 70%;
+	height: 30px;
+}
+
+.setting {
+	position: absolute;
+	top: 30%;
+	right: 2%;
+	width: 40px;
+	height: 40px;
+}
+
+.setting:hover .logout{
+	display: block;
+}
+
+.nav_add_new_user {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_update_user {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_mark_attendance {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}

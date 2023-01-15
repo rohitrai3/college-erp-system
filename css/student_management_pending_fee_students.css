@@ -1,0 +1,314 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.content {
+	position: absolute;
+	top: 27%;
+	left: 0%;
+	width: 100%;
+	height: 48.6%;
+	background-color: aliceblue;
+}
+
+.pending_fee {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 7%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-bottom: 3px;
+}
+
+button {
+	background-color: #e55604;
+	border: none;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-size: 70%;
+}
+
+#search_button {
+	width: 100%;
+	height: 100%;
+}
+
+.search_button {
+	position: absolute;
+	top: 56%;
+	left: 56.5%;
+	width: 5.5%;
+	height: 6%;
+}
+
+
+
+#prev {
+	width: 100%;
+}
+
+
+
+
+
+#next {
+	width: 100%;
+}
+
+#pending_fee_table {
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.pending_fee_info {
+	position: absolute;
+	top: 25%;
+	left: 0.7%;
+	width: 16%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 110%;
+	border-radius: 10px;
+}
+
+.session {
+	position: absolute;
+	top: 32%;
+	left: 2%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#session {
+	width: 100%;
+}
+
+.session_select {
+	position: absolute;
+	top: 32%;
+	left: 20%;
+	width: 15%;
+}
+
+.sem_select {
+	position: absolute;
+	top: 38%;
+	left: 20%;
+	width: 15%;
+}
+
+#sem {
+	width: 100%;
+}
+
+.sem {
+	position: absolute;
+	top: 38%;
+	left: 2%;
+}
+
+.status_select {
+	position: absolute;
+	top: 44%;
+	left: 20%;
+	width: 15%;
+}
+
+#status {
+	width: 100%;
+}
+
+.status {
+	position: absolute;
+	top: 44%;
+	left: 2%;
+}
+
+input {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+#fts {
+	width: 100%;
+}
+
+.fts_input {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	width: 15%;
+}
+
+.fts {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+}
+
+.organisation {
+	position: absolute;
+	top: 32%;
+	left: 60%;
+}
+
+.org_select {
+	position: absolute;
+	top: 32%;
+	left: 78%;
+	width: 15%;
+}
+
+#org {
+	width: 100%;
+}
+
+.section {
+	position: absolute;
+	top: 38%;
+	left: 60%;
+}
+
+.setion_select {
+	position: absolute;
+	top: 38%;
+	left: 78%;
+	width: 15%;
+}
+
+.date {
+	position: absolute;
+	top: 44%;
+	left: 60%;
+}
+
+#section {
+	width: 100%;
+}
+
+.date_input {
+	position: absolute;
+	top: 44%;
+	left: 78%;
+	width: 15%;
+}
+
+#date {
+	width: 100%;
+}
+
+.prev {
+	position: absolute;
+	top: 56%;
+	left: 30%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 58%;
+	left: 34%;
+}
+
+.next {
+	position: absolute;
+	top: 56%;
+	left: 42%;
+	width: 3%;
+}
+
+.export_excel {
+	position: absolute;
+	top: 56%;
+	left: 46%;
+	width: 10%;
+	height: 6%;
+}
+
+#export_excel {
+	width: 100%;
+	height: 100%;
+}
+
+
+.nav_student_management
+{
+	color: #b30000;
+}
+
+.fee_students a
+{
+	color: #b30000;
+}

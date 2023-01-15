@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.my_attendance_text {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 9%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-bottom: 3px;
+}
+
+.academic_year_text {
+	position: absolute;
+	top: 21%;
+	right: 7%;
+}
+
+.academic_year_select {
+	position: absolute;
+	top: 21%;
+	right: 1%;
+}
+
+select {
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 76.5%;
+	background-color: aliceblue;
+}
+
+.monthly_attendance {
+	position: absolute;
+	top: 27%;
+	left: 1%;
+	width: 60%;
+	text-align: center;
+	font-size: 150%;
+}
+
+.total_attendance {
+	position: absolute;
+	top: 27%;
+	right: 1%;
+	width: 35%;
+	text-align: center;
+	font-size: 150%;
+	z-index: 2;
+}
+
+.monthly_attendance_line_chart {
+	position: absolute;
+	top: 32%;
+	left: 1%;
+	width: 60%;
+	height: 40%;
+}
+
+.monthly_attendance_pie_chart {
+	position: absolute;
+	top: 27%;
+	right: 0%;
+}
+
+#my_attendance_table {
+	position: absolute;
+	top: 72%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 10%;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+
+
+.even_row {
+	background-color: aliceblue;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row8 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col2_row8 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col34_row8 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col34_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.date {
+	width: 2.5%;
+}
+
+
+.nav_my_attendance a
+{
+	color: #b30000;
+}
+
+.sunday
+{
+	color: blue;
+	font-weight: bold;
+}
+
+.absent
+{
+	color: red;
+	font-weight: bold;
+}
+
+.leave
+{
+	color: green;
+	font-weight: bold;
+}

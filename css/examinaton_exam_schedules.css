@@ -1,0 +1,406 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.exam_schedules_text {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 9%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-bottom: 3px;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 41.5%;
+	background-color: aliceblue;
+}
+
+.session {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#session {
+	width: 100%;
+}
+
+.session_select {
+	position: absolute;
+	top: 28%;
+	left: 6%;
+}
+
+
+
+
+
+#sem_year {
+	width: 100%;
+}
+
+
+
+#section {
+	width: 100%;
+}
+
+
+
+
+
+
+
+#subject {
+	width: 100%;
+}
+
+input {
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+
+
+
+
+#date {
+	width: 100%;
+}
+
+
+
+.add_daily_attendance {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+	width: 12%;
+	height: 6%;
+}
+
+
+
+.prev {
+	position: absolute;
+	top: 34%;
+	right: 10.5%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 35.5%;
+	right: 5.5%;
+}
+
+
+
+.next {
+	position: absolute;
+	top: 34%;
+	right: 1%;
+	width: 3%;
+}
+
+#next {
+	width: 100%;
+}
+
+#prev {
+	width: 100%;
+}
+
+#student_table {
+	position: absolute;
+	top: 53%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+#col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col12_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+
+
+
+
+
+
+
+
+
+.view_by {
+	position: absolute;
+	top: 28.5%;
+	left: 15%;
+}
+
+#department {
+	width: 100%;
+}
+
+.view_by_select {
+	position: absolute;
+	top: 28%;
+	left: 20.3%;
+	width: 9%;
+}
+
+
+
+#course {
+	width: 100%;
+}
+
+
+
+.sem {
+	position: absolute;
+	top: 28.5%;
+	left: 31.5%;
+}
+
+#sem {
+	width: 100%;
+}
+
+.sem_select {
+	position: absolute;
+	top: 28%;
+	left: 38%;
+	width: 9%;
+}
+
+.section_select {
+	position: absolute;
+	top: 28%;
+	left: 54%;
+	width: 7%;
+}
+
+.section {
+	position: absolute;
+	top: 28.5%;
+	left: 49%;
+}
+
+
+
+
+
+#student_type {
+	width: 100%;
+}
+
+
+
+#status {
+	width: 100%;
+}
+
+
+
+
+
+#order_by {
+	width: 100%;
+}
+
+
+
+.search_input {
+	position: absolute;
+	top: 33.5%;
+	left: 1%;
+}
+
+#search {
+	width: 100%;
+}
+
+
+
+
+
+#search_in {
+	width: 100%;
+}
+
+
+
+
+
+#candidate {
+	width: 100%;
+}
+
+.search_button {
+	position: absolute;
+	top: 33.5%;
+	left: 16%;
+	width: 5%;
+	height: 5%;
+}
+
+button {
+	background-color: #e55604;
+	border: none;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-size: 70%;
+}
+
+#search_button {
+	width: 100%;
+	height: 100%;
+}
+
+#add_exam_schedules {
+	width: 100%;
+	height: 100%;
+}
+
+.add_exam_schedules {
+	position: absolute;
+	top: 33.5%;
+	left: 22%;
+	width: 11%;
+	height: 6%;
+}
+
+#save_button {
+	width: 100%;
+	height: 100%;
+}
+
+.save_button {
+	position: absolute;
+	top: 33.5%;
+	left: 33.5%;
+	width: 4.5%;
+	height: 6%;
+}
+
+#student_id_card {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+#assessment {
+	width: 100%;
+}
+
+.assessment {
+	position: absolute;
+	top: 28.5%;
+	left: 63%;
+}
+
+.assessment_select {
+	position: absolute;
+	top: 28%;
+	left: 70.5%;
+	width: 7%;
+}
+
+.subject {
+	position: absolute;
+	top: 28.5%;
+	left: 79.5%;
+}
+
+.subject_select {
+	position: absolute;
+	top: 28%;
+	left: 84.5%;
+	width: 9%;
+}
+
+.nav_examination
+{
+	color: #b30000;
+}
+
+.exam_schedules a
+{
+	color: #b30000;
+}

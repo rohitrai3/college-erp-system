@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 77.1%;
+	background-color: aliceblue;
+}
+
+.nav_communications
+{
+	color: #b30000;
+}
+
+.comm_calendar a
+{
+	color: #b30000;
+}

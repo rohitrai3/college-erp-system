@@ -1,0 +1,181 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.myself {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 40%;
+	height: 6%;
+	background-color: coral;
+}
+
+.myself_data {
+	position: absolute;
+	top: 27%;
+	left: 1%;
+	width: 40%;
+	height: 35%;
+	background-color: antiquewhite;
+}
+
+.circulars {
+	position: absolute;
+	top: 21%;
+	right: 1%;
+	width: 57%;
+	height: 6%;
+	background-color: blueviolet;
+}
+
+.circulars_data {
+	position: absolute;
+	top: 27%;
+	right: 1%;
+	width: 57%;
+	height: 35%;
+	background-color: antiquewhite;
+}
+
+.assignments {
+	position: absolute;
+	bottom: 30.5%;
+	left: 1%;
+	width: 48.5%;
+	height: 6%;
+	background-color: firebrick;
+}
+
+.assignments_data {
+	position: absolute;
+	bottom: 3.5%;
+	left: 1%;
+	width: 48.5%;
+	height: 27%;
+	background-color: antiquewhite;
+}
+
+.inbox {
+	position: absolute;
+	bottom: 30.5%;
+	right: 1%;
+	width: 48.5%;
+	height: 6%;
+	background-color: firebrick;
+}
+
+.inbox_data {
+	position: absolute;
+	bottom: 3.5%;
+	right: 1%;
+	width: 48.5%;
+	height: 27%;
+	background-color: antiquewhite;
+}
+
+#user_logo {
+	height: 80%;
+}
+
+.user_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	padding: 0.6%;
+}
+
+.myself_title {
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	color: white;
+	font-size: 125%;
+}
+
+#circulars_logo {
+	height: 80%;
+}
+
+.circulars_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	padding: 0.6%;
+}
+
+.circulars_title {
+	position: absolute;
+	bottom: 5%;
+	left: 6%;
+	color: white;
+	font-size: 125%;
+}
+
+.assignments_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	padding: 0.6%;
+}
+
+#assignmnts_logo {
+	height: 90%;
+}
+
+.assignments_title {
+	position: absolute;
+	bottom: 5%;
+	left: 8%;
+	color: white;
+	font-size: 125%;
+}
+
+.inbox_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	padding: 0.7%;
+}
+
+#inbox_logo {
+	height: 80%;
+}
+
+.inbox_title {
+	position: absolute;
+	bottom: 5%;
+	left: 9%;
+	color: white;
+	font-size: 125%;
+}
+
+.profile_logo {
+	float: left;
+	height: 70%;
+	padding: 2%;
+}
+
+#profile_logo {
+	height: 100%;
+}
+
+.profile_name {
+	font-size: 110%;
+	padding-left: 35%;
+	padding-top: 15%;
+}
+
+.nav_dashboard a
+{
+	color: #b30000;
+}

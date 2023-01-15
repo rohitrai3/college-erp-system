@@ -1,0 +1,313 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.issue_book_histories {
+	position: absolute;
+	top: 25%;
+	left: 0.7%;
+	width: 13%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 110%;
+	border-radius: 10px;
+}
+
+.content {
+	position: absolute;
+	top: 27%;
+	left: 0%;
+	width: 100%;
+	height: 77.1%;
+	background-color: aliceblue;
+}
+
+.status {
+	position: absolute;
+	top: 31.5%;
+	left: 15%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#status {
+	width: 100%;
+}
+
+.status_input {
+	position: absolute;
+	top: 31%;
+	left: 19.3%;
+	width: 15%;
+}
+
+
+
+
+
+#sem_year {
+	width: 100%;
+}
+
+
+
+#status {
+	width: 100%;
+}
+
+
+
+
+
+
+
+#subject {
+	width: 100%;
+}
+
+input {
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+	font-size: 100%;
+}
+
+
+
+
+
+#date {
+	width: 100%;
+}
+
+
+
+.add_daily_attendance {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+	width: 12%;
+	height: 6%;
+}
+
+
+
+.prev {
+	position: absolute;
+	top: 31%;
+	right: 10.5%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 32.5%;
+	right: 5.5%;
+}
+
+
+
+.next {
+	position: absolute;
+	top: 31%;
+	right: 1%;
+	width: 3%;
+}
+
+#next {
+	width: 100%;
+}
+
+#prev {
+	width: 100%;
+}
+
+#issue_book_histories_table {
+	position: absolute;
+	top: 38%;
+	left: 0%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+#col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col12_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+#export_excel {
+	width: 100%;
+	height: 100%;	
+}
+
+
+.library {
+	position: absolute;
+	top: 31.5%;
+	left: 1%;
+}
+
+.library_select {
+	position: absolute;
+	top: 31%;
+	left: 6%;
+	width: 7%;
+}
+
+#library {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sem {
+	width: 100%;
+}
+
+
+
+.search_input {
+	position: absolute;
+	top: 31%;
+	left: 35%;
+	width: 15%;
+}
+
+
+
+.search_button {
+	position: absolute;
+	top: 31%;
+	left: 51%;
+	width: 6%;
+	height: 5%;
+}
+
+button {
+	background-color: #e55604;
+	border: none;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-size: 70%;
+}
+
+#search_button {
+	width: 100%;
+	height: 100%;
+}
+
+.student_table_section {
+	position: absolute;
+	top: 53%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+	margin-bottom: 1.6%;
+	overflow: scroll;
+}
+
+#to_date {
+	width: 100%;
+}
+
+#library_year {
+	width: 100%;
+}
+
+.export_excel {
+	position: absolute;
+	top: 31%;
+	left: 57.5%;
+	width: 10%;
+	height: 5%;
+}
+
+
+
+
+.nav_reports
+{
+	color: #b30000;
+}
+
+.reports_book a
+{
+	color: #b30000;
+}

@@ -1,0 +1,616 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.top {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 20%;
+	background-color: #0493e5;
+}
+
+.college_logo {
+	position: absolute;
+	top: 9%;
+	left: 0.8%;
+	width: 60px;
+	height: 60px;
+	background-color: aliceblue;
+	border-radius: 5%;
+}
+
+#college_logo {
+	height: 90%;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.college_name {
+	position: absolute;
+	top: 20%;
+	left: 6%;
+	font-size: 150%;
+	color: white;
+	font-weight: bold;
+}
+
+.org {
+	float: right;
+	font-size: 100%;
+	color: white;
+	font-weight: bold;
+	margin-top: 0.3%;
+	margin-right: 0.5%;
+}
+
+.welcome {
+	float: right;
+	font-size: 80%;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 0.3%;
+	margin-right: 1%;
+}
+
+.bsaitm_name {
+	float: right;
+	font-size: 90%;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 0.3%;
+	margin-right: 2%;
+}
+
+.setting_logo {
+	position: absolute;
+	top: 0%;
+	right: 2%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#setting {
+	width: 100%;
+}
+
+.cname {
+	position: absolute;
+	top: 30%;
+	right: 8%;
+	font-weight: bold;
+	font-size: 200%;
+	color: white;
+}
+
+.nav {
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	width: 100%;
+	height: 30%;
+	background-color: #e55604;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.nav_dashboard {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_my_profile {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_my_attendance {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.nav_student_management {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_examination {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_communications {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_lecture {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_reports {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_alerts {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+.nav_mark_attendance {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+	border-right: 1px dotted black;
+}
+
+
+
+.logout {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0%;
+	width: 1020%;
+	height: 330%;
+	background-color: #03639a;
+	z-index: 2;
+}
+
+.logout_pic {
+	position: absolute;
+	top: 12%;
+	left: 4%;
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+#logout_pic {
+	width: 100%;
+}
+
+.logout_name {
+	position: absolute;
+	top: 25%;
+	right: 0%;
+	width: 70%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.change_password {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+}
+
+.signout {
+	position: absolute;
+	top: 50%;
+	right: 10%;
+}
+
+#change_password {
+	font-size: 70%;
+	height: 30px;
+}
+
+#signout {
+	font-size: 70%;
+	height: 30px;
+}
+
+.mark_attendance_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 21.6%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.section_wise {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.group_wise {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+
+.student_management_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 31.6%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+.student_profile {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.student_reports {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.ptm {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.fee_students {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.examinaton_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 43.5%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.exam_schedules {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.enter_marks {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.enter_grades {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+
+.activity_marks {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.student_health {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.term_attendance {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.student_report {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.student_assignments {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+.comm_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 51.1%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.comm_my_leaves {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_compose {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_inbox {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_outbox {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_student_leaves {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_circulars {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.comm_calendar {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.timetable_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 60.5%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.timetable_plans {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.timetable_schedules {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.timetable_diaries {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.timetable_timetable {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 74%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.reports_dashboard {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_attendance {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_subject_wise_attendance {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_short_attendance {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_book {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_salary {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_attendance_not_marked {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_count {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_absent {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.reports_activity {
+	font-size: 100%;
+	padding: 0px 0px 10px 10px;
+}
+
+.alerts_submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 79.6%;
+	width: 19%;
+	background-color: #e55604;
+	border-left: 7px solid #0493e5;
+	color: white;
+	cursor: pointer;
+	z-index: 1;
+	font-size: 120%;
+}
+
+.alerts_employee_leave {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_student_leave {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_inventory {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_inventory_approval {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_inventory_po {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_tasks {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_invoice {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_waiver {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_concession {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.alerts_cancellation {
+	font-size: 100%;
+	padding: 0px 10px 10px 10px;
+}
+
+.nav_student_management:hover .student_management_submenu {
+	display: block;
+}
+
+.setting {
+	position: absolute;
+	top: 30%;
+	right: 2%;
+	width: 40px;
+	height: 40px;
+}
+
+.setting:hover .logout{
+	display: block;
+}
+
+.nav_mark_attendance:hover .mark_attendance_submenu{
+	display: block;
+}
+
+.nav_student_management:hover .student_management_submenu {
+	display: block;
+}
+
+.nav_examination:hover .examinaton_submenu {
+	display: block;
+}
+
+.nav_communications:hover .comm_submenu {
+	display: block;
+}
+
+.nav_lecture:hover .timetable_submenu {
+	display: block;
+}
+
+.nav_reports:hover .reports_submenu {
+	display: block;
+}
+
+.nav_alerts:hover .alerts_submenu {
+	display: block;
+}

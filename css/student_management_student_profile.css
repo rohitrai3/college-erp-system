@@ -1,0 +1,461 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.mark_attendance {
+	position: absolute;
+	top: 21%;
+	left: 1%;
+	width: 9%;
+	text-align: center;
+	background-color: #e55604;
+	color: white;
+	padding-bottom: 3px;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 77.1%;
+	background-color: aliceblue;
+}
+
+.session {
+	position: absolute;
+	top: 28.5%;
+	left: 26%;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+#session {
+	width: 100%;
+}
+
+.session_select {
+	position: absolute;
+	top: 28%;
+	left: 31%;
+}
+
+
+
+
+
+#sem_year {
+	width: 100%;
+}
+
+
+
+#section {
+	width: 100%;
+}
+
+
+
+
+
+
+
+#subject {
+	width: 100%;
+}
+
+input {
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+
+
+
+
+#date {
+	width: 100%;
+}
+
+
+
+.add_daily_attendance {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+	width: 12%;
+	height: 6%;
+}
+
+
+
+.prev {
+	position: absolute;
+	top: 45.5%;
+	right: 14%;
+	width: 3%;
+}
+
+.pages {
+	position: absolute;
+	top: 47%;
+	right: 5.5%;
+}
+
+
+
+.next {
+	position: absolute;
+	top: 45.5%;
+	right: 1%;
+	width: 3%;
+}
+
+#next {
+	width: 100%;
+}
+
+#prev {
+	width: 100%;
+}
+
+#student_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#table_heading {
+	background-color: #191919;
+	color: white;
+}
+
+th {
+	border-top: 2px solid #b2b2b2;
+	border-right: 2px solid #b2b2b2;
+	border-left: 2px solid #b2b2b2;
+}
+
+.even_row {
+	background-color: aliceblue;
+}
+
+#col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col2 {
+	border-right: 2px dotted black;
+}
+
+.col12_row1 {
+	border-right: 2px solid #b2b2b2;
+}
+
+.odd_row {
+	background-color: #cccccc;
+}
+
+.col1 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+}
+
+.col1_row51 {
+	border-left: 2px solid #b2b2b2;
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col2_row51 {
+	border-right: 2px dotted black;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+.col12_row51 {
+	border-right: 2px solid #b2b2b2;
+	border-bottom: 2px solid #b2b2b2;
+}
+
+#export_excel {
+	width: 100%;
+	height: 100%;	
+}
+
+.export_excel {
+	position: absolute;
+	top: 45%;
+	left: 25.5%;
+	width: 9%;
+	height: 6%;
+}
+.organisation {
+	position: absolute;
+	top: 28.5%;
+	left: 1%;
+}
+
+.organisation_select {
+	position: absolute;
+	top: 28%;
+	left: 9%;
+	width: 15%;
+}
+
+#organisation {
+	width: 100%;
+}
+
+.department {
+	position: absolute;
+	top: 28.5%;
+	left: 40%;
+}
+
+#department {
+	width: 100%;
+}
+
+.department_select {
+	position: absolute;
+	top: 28%;
+	left: 47.5%;
+	width: 9%;
+}
+
+.course {
+	position: absolute;
+	top: 28.5%;
+	left: 58.5%;
+}
+
+#course {
+	width: 100%;
+}
+
+.course_select {
+	position: absolute;
+	top: 28%;
+	left: 68%;
+	width: 9%;
+}
+
+.sem {
+	position: absolute;
+	top: 28.5%;
+	left: 79%;
+}
+
+#sem {
+	width: 100%;
+}
+
+.sem_select {
+	position: absolute;
+	top: 28%;
+	left: 85.5%;
+	width: 9%;
+}
+
+.section_select {
+	position: absolute;
+	top: 33.5%;
+	left: 6%;
+	width: 7%;
+}
+
+.section {
+	position: absolute;
+	top: 34%;
+	left: 1%;
+}
+
+.student_type {
+	position: absolute;
+	top: 34%;
+	left: 15%;
+}
+
+.student_type_select {
+	position: absolute;
+	top: 33.5%;
+	left: 23.2%;
+	width: 7%;
+}
+
+#student_type {
+	width: 100%;
+}
+
+.status {
+	position: absolute;
+	top: 34%;
+	left: 32%;
+}
+
+#status {
+	width: 100%;
+}
+
+.status_select {
+	position: absolute;
+	top: 33.5%;
+	left: 36.5%;
+	width: 7%;
+}
+
+.order_by {
+	position: absolute;
+	top: 34%;
+	left: 45.5%;
+}
+
+#order_by {
+	width: 100%;
+}
+
+.order_by_select {
+	position: absolute;
+	top: 33.5%;
+	left: 51.5%;
+	width: 10%;
+}
+
+.search_input {
+	position: absolute;
+	top: 33.5%;
+	left: 63%;
+}
+
+#search {
+	width: 100%;
+}
+
+.search {
+	position: absolute;
+	top: 34%;
+	left: 78%;
+}
+
+.search_select {
+	position: absolute;
+	top: 33.5%;
+	left: 84%;
+	width: 7%;
+}
+
+#search_in {
+	width: 100%;
+}
+
+.candidate_select {
+	position: absolute;
+	top: 39%;
+	left: 10.5%;
+}
+
+.candidate {
+	position: absolute;
+	top: 39.5%;
+	left: 1%;
+}
+
+#candidate {
+	width: 100%;
+}
+
+.search_button {
+	position: absolute;
+	top: 39%;
+	left: 27%;
+	width: 5%;
+	height: 5%;
+}
+
+button {
+	background-color: #e55604;
+	border: none;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-size: 70%;
+}
+
+#search_button {
+	width: 100%;
+	height: 100%;
+}
+
+#add_student {
+	width: 100%;
+	height: 100%;
+}
+
+.add_student {
+	position: absolute;
+	top: 45%;
+	left: 1%;
+	width: 8%;
+	height: 6%;
+}
+
+#send_sms {
+	width: 100%;
+	height: 100%;
+}
+
+.send_sms {
+	position: absolute;
+	top: 45%;
+	left: 9.5%;
+	width: 6%;
+	height: 6%;
+}
+
+#student_id_card {
+	width: 100%;
+	height: 100%;
+}
+
+.student_id_card {
+	position: absolute;
+	top: 45%;
+	left: 16%;
+	width: 9%;
+	height: 6%;
+}
+
+.student_table_section {
+	position: absolute;
+	top: 53%;
+	left: 0%;
+	width: 100%;
+	height: 50%;
+	margin-bottom: 1.6%;
+	overflow: scroll;
+}
+
+
+.nav_student_management
+{
+	color: #b30000;
+}
+
+.student_profile a
+{
+	color: #b30000;
+}

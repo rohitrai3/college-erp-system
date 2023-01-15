@@ -1,0 +1,284 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+.employees {
+	position: absolute;
+	top: 21%;
+	left: 0%;
+	background-color: #e55604;
+	color: white;
+}
+
+.employees_text1 {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+.employees_triangle {
+	width: 0;
+	border-left: 12px solid #6600cc;
+	border-bottom: 12px solid #e55604;
+	border-top: 12px solid #e55604;
+	float: left;
+}
+
+.employees_detail {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+}
+
+.staff {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	color: #191919;
+}
+
+.employee_name {
+	position: absolute;
+	top: 30%;
+}
+
+.content {
+	position: absolute;
+	top: 35%;
+	left: 0%;
+	width: 99.8%;
+	height: 25%;
+	background-color: aliceblue;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+}
+
+.profile_nav {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99.8%;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+	margin: 0.1%;
+	padding-top: 0.3%;
+}
+
+.profile_nav_personal {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+	margin-left: 0.15%;
+}
+
+.profile_nav_official {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_history {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_medical {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_document {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_activity {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_address {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_additional {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_bank {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_family {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_other {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+#profile_nav_active {
+	background-color: #2e2be2;
+}
+
+#profile_logo {
+	width: 100%;
+}
+
+.save_button {
+	position: absolute;
+	top: 60%;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#save {
+	background-color: #e55604;
+	border: none;
+	width: 5%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+}
+
+.add_info {
+	position: absolute;
+	top: 30%;
+	left: 2%;
+	width: 96%;
+	background-color: blueviolet;
+	color: white;
+	padding: 0.2%;
+	font-size: 110%;
+}
+
+.pan_no {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+}
+
+.pan_no_input {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	width: 15%;
+}
+
+input {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+#pan_no {
+	width: 100%;
+}
+
+.aadhar_no {
+	position: absolute;
+	top: 75%;
+	left: 2%;
+}
+
+#aadhar_no {
+	width: 100%;
+}
+
+.aadhar_no_input {
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	width: 15%;
+}
+
+#election_no {
+	width: 100%;
+}
+
+.election_no_input {
+	position: absolute;
+	top: 50%;
+	left: 69%;
+	width: 15%;
+}
+
+.election_no {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#passport_no {
+	width: 100%;
+}
+
+.passport_no {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+}
+
+.passport_no_input {
+	position: absolute;
+	top: 75%;
+	left: 69%;
+	width: 15%;
+}
+
+.nav_my_profile a
+{
+	color: #b30000;
+}

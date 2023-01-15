@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+.content {
+	position: absolute;
+	top: 26%;
+	left: 0%;
+	width: 100%;
+	height: 32%;
+	background-color: aliceblue;
+}
+
+.name
+{
+	position: absolute;
+	top: 28.5%;
+	left: 41.9%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.salutation_select
+{
+	position: absolute;
+	top: 28%;
+	left: 46%;
+}
+
+.name_input
+{
+	position: absolute;
+	top: 28%;
+	left: 51%;
+}
+
+.mobile
+{
+	position: absolute;
+	top: 34.5%;
+	left: 38.9%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.mobile_input
+{
+	position: absolute;
+	top: 34%;
+	left: 46%;
+}
+
+.username
+{
+	position: absolute;
+	top: 40.5%;
+	left: 39.5%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.username_input
+{
+	position: absolute;
+	top: 40%;
+	left: 46%;
+}
+
+.username_text
+{
+	position: absolute;
+	top: 40.5%;
+	left: 62%;
+}
+
+.password
+{
+	position: absolute;
+	top: 46.5%;
+	left: 39.8%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.password_input
+{
+	position: absolute;
+	top: 46%;
+	left: 46%;
+}
+
+#submit {
+	font-size: 80%;
+	background-color: #e55604;
+	border: none;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.create_user
+{
+	position: absolute;
+	top: 58%;
+	left: 0%;
+	width: 100%;
+	text-align: center;
+}
+
+.type
+{
+	position: absolute;
+	top: 52.5%;
+	left: 37.7%;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.type_select
+{
+	position: absolute;
+	top: 52%;
+	left: 46%;
+}
+
+.nav_add_new_user a
+{
+	color: #b30000;
+}
+
+.fail {
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	color: red;
+	width: 100%;
+	text-align: center;
+}

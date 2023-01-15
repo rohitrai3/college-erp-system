@@ -1,0 +1,691 @@
+@charset "ISO-8859-1";
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #808080;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.employees {
+	position: absolute;
+	top: 21%;
+	left: 0%;
+	background-color: #e55604;
+	color: white;
+}
+
+.employees_text1 {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+.employees_triangle {
+	width: 0;
+	border-left: 12px solid #6600cc;
+	border-bottom: 12px solid #e55604;
+	border-top: 12px solid #e55604;
+	float: left;
+}
+
+.employees_detail {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+}
+
+.staff {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	color: #191919;
+}
+
+.employee_name {
+	position: absolute;
+	top: 30%;
+}
+
+.content {
+	position: absolute;
+	top: 35%;
+	left: 0%;
+	width: 99.8%;
+	height: 120%;
+	background-color: aliceblue;
+	border-radius: 5px 5px 0px 0px;
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+}
+
+.profile_nav {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99.8%;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 5px 5px 0px 0px;
+	margin: 0.1%;
+	padding-top: 0.3%;
+}
+
+.profile_nav_personal {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+	margin-left: 0.15%;
+}
+
+.profile_nav_official {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_history {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_medical {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_document {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_activity {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_address {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_additional {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_bank {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_family {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+.profile_nav_other {
+	float: left;
+	padding: 0.5%;
+	background-color: #6e22b4;
+	border-radius: 10px 10px 0px 0px;
+	margin-right: 0.2%;
+}
+
+#profile_nav_active {
+	background-color: #2e2be2;
+}
+
+.image {
+	position: absolute;
+	top: 8%;
+	left: 1%;
+}
+
+.profile_logo {
+	position: absolute;
+	top: 6%;
+	left: 20%;
+	width: 9%;
+}
+
+#profile_logo {
+	width: 100%;
+}
+
+.remove_image {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+
+.remove_image a
+{
+	color: grey;
+}
+
+.salutation {
+	position: absolute;
+	top: 25.5%;
+	left: 1%;
+}
+
+.salutation_select {
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 15%;
+}
+
+#salutation {
+	width: 100%;
+}
+
+.mobile {
+	position: absolute;
+	top: 31.5%;
+	left: 1%;
+}
+
+.mobile_input {
+	position: absolute;
+	top: 31%;
+	left: 20%;
+	width: 15%;
+}
+
+#mobile {
+	width: 100%;
+}
+
+.verify_mobile {
+	position: absolute;
+	top: 39%;
+	left: 36.5%;
+}
+
+.phone {
+	position: absolute;
+	top: 37.5%;
+	left: 1%;
+}
+
+.phone_input {
+	position: absolute;
+	top: 37%;
+	left: 20%;
+	width: 15%;
+}
+
+#phone {
+	width: 100%;
+}
+
+.gender {
+	position: absolute;
+	top: 44.5%;
+	left: 1%;
+}
+
+.gender_select {
+	position: absolute;
+	top: 44%;
+	left: 20%;
+	width: 15%;
+}
+
+#gender {
+	width: 100%;
+}
+
+.marital {
+	position: absolute;
+	top: 51.5%;
+	left: 1%;
+}
+
+.marital_select {
+	position: absolute;
+	top: 51%;
+	left: 20%;
+	width: 15%;
+}
+
+#marital {
+	width: 100%;
+}
+
+.spouse {
+	position: absolute;
+	top: 57.5%;
+	left: 1%;
+}
+
+#spouse {
+	width: 100%;
+}
+
+.spouse_input {
+	position: absolute;
+	top: 57%;
+	left: 20%;
+	width: 15%;
+}
+
+.spouse_occupation {
+	position: absolute;
+	top: 63.5%;
+	left: 1%;
+}
+
+#spouse_occupation {
+	width: 100%;
+}
+
+.spouse_occupation_input {
+	position: absolute;
+	top: 63%;
+	left: 20%;
+	width: 15%;
+}
+
+.spouse_contact {
+	position: absolute;
+	top: 69.5%;
+	left: 1%;
+}
+
+.spouse_contact_input {
+	position: absolute;
+	top: 69%;
+	left: 20%;
+	width: 15%;
+}
+
+#spouse_contact {
+	width: 100%;
+}
+
+.anniversary {
+	position: absolute;
+	top: 75.5%;
+	left: 1%;
+}
+
+#anniversary {
+	width: 100%;
+}
+
+.anniversary_input {
+	position: absolute;
+	top: 75%;
+	left: 20%;
+	width: 15%;
+}
+
+#nationality {
+	width: 100%;
+}
+
+.nationality {
+	position: absolute;
+	top: 82.5%;
+	left: 1%;
+}
+
+.nationality_input {
+	position: absolute;
+	top: 82%;
+	left: 20%;
+	width: 15%;
+}
+
+.person1 {
+	position: absolute;
+	top: 89.5%;
+	left: 1%;
+}
+
+#person1 {
+	width: 100%;
+}
+
+.person1_input {
+	position: absolute;
+	top: 89%;
+	left: 20%;
+	width: 15%;
+}
+
+.person2 {
+	position: absolute;
+	top: 95.5%;
+	left: 1%;
+}
+
+#person2 {
+	width: 100%;
+}
+
+.person2_input {
+	position: absolute;
+	top: 95%;
+	left: 20%;
+	width: 15%;
+}
+
+.name {
+	position: absolute;
+	top: 25.5%;
+	left: 50%;
+}
+
+#name {
+	width: 100%;
+}
+
+.name_input {
+	position: absolute;
+	top: 25%;
+	left: 69%;
+	width: 15%;
+}
+
+.official_id {
+	position: absolute;
+	top: 31.5%;
+	left: 50%;
+}
+
+#official_id {
+	width: 100%;
+}
+
+.official_id_input {
+	position: absolute;
+	top: 31%;
+	left: 69%;
+	width: 15%;
+}
+
+.personal_id {
+	position: absolute;
+	top: 37.5%;
+	left: 50%;
+}
+
+#personal_id {
+	width: 100%;
+}
+
+.personal_id_input {
+	position: absolute;
+	top: 37%;
+	left: 69%;
+	width: 15%;
+}
+
+.dob {
+	position: absolute;
+	top: 44.5%;
+	left: 50%;
+}
+
+#dob {
+	width: 100%;
+}
+
+.dob_input {
+	position: absolute;
+	top: 44%;
+	left: 69%;
+	width: 15%;
+}
+
+.spouse_qualification {
+	position: absolute;
+	top: 57.5%;
+	left: 50%;
+}
+
+#spouse_qualification {
+	width: 100%;
+}
+
+.spouse_qualification_input {
+	position: absolute;
+	top: 57%;
+	left: 69%;
+	width: 15%;
+}
+
+.spouse_address {
+	position: absolute;
+	top: 63.5%;
+	left: 50%;
+}
+
+#spouse_address {
+	width: 100%;
+}
+
+.spouse_address_input {
+	position: absolute;
+	top: 63%;
+	left: 69%;
+	width: 15%;
+}
+
+.spouse_id {
+	position: absolute;
+	top: 69.5%;
+	left: 50%;
+}
+
+#spouse_id {
+	width: 100%;
+}
+
+.spouse_id_input {
+	position: absolute;
+	top: 69%;
+	left: 69%;
+	width: 15%;
+}
+
+.contact1 {
+	position: absolute;
+	top: 89.5%;
+	left: 50%;
+}
+
+#contact1 {
+	width: 100%;
+}
+
+.contact1_input {
+	position: absolute;
+	top: 89%;
+	left: 69%;
+	width: 15%;
+}
+
+.contatc2 {
+	position: absolute;
+	top: 95.5%;
+	left: 50%;
+}
+
+#contact2 {
+	width: 100%;
+}
+
+.contact2_input {
+	position: absolute;
+	top: 95%;
+	left: 69%;
+	width: 15%;
+}
+
+.save_button {
+	position: absolute;
+	top: 155%;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#save {
+	background-color: #e55604;
+	border: none;
+	width: 5%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+}
+
+input {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+select {
+	font-size: 100%;
+	background-color: #f2f2f2;
+	padding: 3px;
+	padding-left: 5px;
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+
+textarea {
+	font-size: 100%;
+	padding: 3px;
+	border: 2px solid #e55604;
+	border-bottom: 4px solid #0493e5;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+
+.verify_official_id {
+	position: absolute;
+	top: 39%;
+	left: 85.5%;
+}
+
+.verify_personal_id {
+	position: absolute;
+	top: 46%;
+	left: 85.5%;
+}
+
+.nav_update_user a
+{
+	color: #b30000;
+}
+
+.nav_update_user {
+	float: left;
+	height: 75%;
+	padding: 10px 11px 0px 11px;
+	font-size: 75%;
+}
+
+.upload_profile_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 160%;
+	background: rgba(0,0,0,0.8);
+}
+
+#upload_profile_logo {
+	display: none;
+}
+
+.upload_form {
+	position: absolute;
+	top: 20%;
+	left: 35%;
+	width: 30%;
+	height: 13%;
+	background-color: blueviolet;
+}
+
+.text {
+	text-align: center;
+	font-size: 120%;
+	margin-top: 3%;
+}
+
+#profile_pic {
+	font-size: 80%;
+	border: none;
+	width: 60%;
+	font-weight: bold;
+}
+
+#submit {
+	font-size: 80%;
+	background-color: #e55604;
+	border: none;
+	width: 18%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+}
+
+#cancle {
+	font-size: 80%;
+	background-color: #e55604;
+	border: none;
+	width: 18%;
+	height: 100%;
+	color: white;
+	border-bottom: 4px solid #0493e5;
+	font-weight: bold;
+}
